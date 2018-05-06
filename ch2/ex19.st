@@ -1,0 +1,1 @@
+| rng char |rng := Random new.char := ((rng nextInt: 26) + 65) asCharacter.Transcript show: char; cr.

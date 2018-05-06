@@ -1,0 +1,1 @@
+fahrenheit := Number readFrom: (UIManager default	request: 'Enter a temperature in Fahrenheit:').celsius := (5 / 9 * (fahrenheit - 32)) asFloat.UIManager default alert: 'Fahrenheit ',	fahrenheit printString, ' is ', celsius printString,	' in Celsius'

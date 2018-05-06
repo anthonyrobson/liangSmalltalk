@@ -1,0 +1,1 @@
+| offset t |offset := Number readFrom: (UIManager default request: 'Enter the time zone offset to GMT:').t := Time now.Transcript show: 'The current time is ', (t hour + offset) asString, ':', (t minute) asString, ':', (t second) asString; cr.

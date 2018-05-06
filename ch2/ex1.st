@@ -1,0 +1,1 @@
+| fahrenheit celsius output |celsius := Number readFrom: (UIManager default request: 'Enter a temperature in Celsius:').fahrenheit := (9 / 5) * celsius + 32.output := WriteStream on: String new.output << (celsius round: 0) asString.output << ' Celsius is '.output << (fahrenheit round: 1) asString.output << ' Fahrenheit'.UIManager default alert: output contents.

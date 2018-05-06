@@ -1,0 +1,1 @@
+| code output |code := Number readFrom: (UIManager default request: 'Enter an ASCII code:').output := WriteStream on: String new.output << 'The character for ASCII code '.output << code asString.output << ' is '.output << code asCharacter.UIManager default alert: output contents.

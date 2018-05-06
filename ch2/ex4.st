@@ -1,0 +1,1 @@
+| pounds kilos output |PoundsPerKilo := 0.454.pounds := Number readFrom: (UIManager default request: 'Enter weight in pounds:').kilos := pounds * PoundsPerKilo.output := WriteStream on: String new.output << (pounds round: 1) asString.output << ' pounds are '.output << (kilos round: 3) asString.output << ' kilograms'.UIManager default alert: output contents.

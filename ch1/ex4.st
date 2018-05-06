@@ -1,0 +1,1 @@
+Transcript	show: 'a      a^2     a^3'; cr;	show: '1      1       1'; cr;	show: '2      4       8'; cr;	show: '3      9       27'; cr;	show: '4      16      64'; cr

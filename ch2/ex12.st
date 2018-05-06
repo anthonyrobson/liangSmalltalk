@@ -1,0 +1,1 @@
+| input balance interestRate interest output |input := (UIManager default request: 'Enter balance and interest rate:') parseLiterals.balance := input at: 1.interestRate := input at: 2.interest := balance * (interestRate / 1200).output := WriteStream on: String new.output << 'The interest is ' << (interest round: 5) asString.UIManager default alert: output contents.

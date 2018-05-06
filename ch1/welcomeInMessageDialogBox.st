@@ -1,0 +1,1 @@
+UIManager default alert: 'Welcome to Java!'

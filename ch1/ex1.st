@@ -1,0 +1,1 @@
+Transcript	show: 'Welcome to Java'; cr;	show: 'Welcome to Computer Science'; cr;	show: 'Programming is fun'; cr

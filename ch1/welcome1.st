@@ -1,0 +1,1 @@
+Transcript	show: 'Programming is fun!'; cr;	show: 'Fundamentals first'; cr;	show: 'Problem driven'; cr

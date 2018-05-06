@@ -1,0 +1,1 @@
+| n sum |n := Number readFrom: (UIManager default request: 'Enter a number between 0 and 1000:').sum := 0.sum := sum + (n \\ 10).n := n // 10.sum := sum + (n \\ 10).n := n // 10.sum := sum + n.UIManager default alert: 'The sum of the digits is ', sum asString.

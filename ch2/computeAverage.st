@@ -1,0 +1,1 @@
+input := (UIManager default request: 'Enter three numbers: ') parseLiterals.UIManager default alert: 'The average of ',	(input at: 1) printString, ' ',	(input at: 2) printString, ' ',	(input at: 3) printString, ' is ',	input average printString

@@ -1,0 +1,1 @@
+| feet metres output |FeetPerMetre := 0.305.feet := Number readFrom: (UIManager default request: 'Enter a distance in feet:').metres := feet * FeetPerMetre.output := WriteStream on: String new.output << (feet round: 0) asString.output << ' feet are '.output << (metres round: 2) asString.output << ' metres'.UIManager default alert: output contents.

@@ -1,0 +1,1 @@
+| input v a length |input := (UIManager default request: 'Enter v and a:') parseLiterals.v := input at: 1.a := input at: 2.length := v squared / (2 * a).Transcript show: 'The minimum runway length for this airplane is ', (length round: 3) asString; cr.

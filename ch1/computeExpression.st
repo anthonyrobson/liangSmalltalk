@@ -1,0 +1,1 @@
+Transcript show: ((2 * 3 + 10.5) / (45 - 3.5)) printString

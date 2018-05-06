@@ -1,0 +1,1 @@
+| input v0 v1 t a |input := (UIManager default request: 'Enter v0, v1, and t:') parseLiterals.v0 := input at: 1.v1 := input at: 2.t := input at: 3.a := v1 - v0 / t.Transcript show: 'The average acceleration is ', (a round: 4) asString; cr.

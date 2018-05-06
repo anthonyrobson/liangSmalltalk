@@ -1,0 +1,1 @@
+t := Time now.UIManager default alert: 'Current time is ',	(t hour) printString, ':', (t minute) printString,	':', (t second) printString

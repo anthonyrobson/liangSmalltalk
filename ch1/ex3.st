@@ -1,0 +1,1 @@
+Transcript	show: '    J    A    V     V    A'; cr;	show: '    J   A A    V   V    A A'; cr;	show: 'J   J  AAAAA    V V    AAAAA'; cr;	show: ' J J  A     A    V    A     A'; cr

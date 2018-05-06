@@ -1,0 +1,1 @@
+seconds := Number readFrom: (UIManager default request: 'Enter an integer for seconds:').minutes := seconds // 60.remainingSeconds := seconds \\ 60.UIManager default alert: seconds printString,	' seconds are ', minutes printString,	' minutes and ', remainingSeconds printString,	' seconds'

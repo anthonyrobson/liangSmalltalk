@@ -1,0 +1,1 @@
+| s area |s := Number readFrom: (UIManager default request: 'Enter the hexagon''s side length:').area := ((3 * 3 sqrt) / 2) * s squared.Transcript show: 'The area of the hexagon is ', (area round: 4) asString; cr.

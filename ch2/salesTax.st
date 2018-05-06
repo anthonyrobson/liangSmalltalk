@@ -1,0 +1,1 @@
+amount := Number readFrom: (UIManager default request: 'Enter purchase amount:').tax := amount * 0.06.UIManager default alert: 'Sales tax is ',	(tax round: 2) printString

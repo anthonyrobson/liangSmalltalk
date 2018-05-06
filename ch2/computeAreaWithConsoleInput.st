@@ -1,0 +1,1 @@
+radius := Number readFrom: (UIManager default request: 'Enter a number for radius: ').area := radius squared * Float pi.UIManager default alert: 'The area for the circle of radius ', radius printString, ' is ', area printString

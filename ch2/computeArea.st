@@ -1,0 +1,1 @@
+radius := 20.area := radius squared * Float pi.UIManager default alert: 'The area for the circle of radius ', radius printString, ' is ', area printString
